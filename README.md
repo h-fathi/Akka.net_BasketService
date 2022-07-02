@@ -4,7 +4,7 @@ A simple basket micro-service API built on ASP.NET Core with Akka.NET.
 
 ## Prerequisites
 
-- ASP.NET Core 2.0 Runtime
+- ASP.NET 5.0 Runtime
 
 ## Installation
 
@@ -34,7 +34,7 @@ Getting the product list: `GET - http://localhost:5000/products`.
 
 Getting the contents of a basket: `GET - http://localhost:5000/baskets/1`.
 
-Add an item to the basket: `PUT - http://localhost:5000/baskets/1/items` with JSON body:
+Add an item to the basket: `POST - http://localhost:5000/baskets/1/add` with JSON body:
 
 ```json
 {
