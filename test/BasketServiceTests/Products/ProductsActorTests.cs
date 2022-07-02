@@ -1,5 +1,5 @@
 using Xunit;
-using NewhouseIT.BasketService.Products;
+using AkkaSample.BasketService.Products;
 using Akka.TestKit.Xunit2;
 using Akka.Actor;
 using System.Collections.Generic;

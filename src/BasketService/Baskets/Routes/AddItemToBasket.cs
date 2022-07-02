@@ -4,7 +4,7 @@ using Akka.Actor;
 using System;
 using System.Threading.Tasks;
 
-namespace NewhouseIT.BasketService.Baskets.Routes
+namespace AkkaSample.BasketService.Baskets.Routes
 {
     public class AddItemToBasket
     {

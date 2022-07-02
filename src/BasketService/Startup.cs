@@ -1,4 +1,4 @@
-namespace NewhouseIT.BasketService
+namespace AkkaSample.BasketService
 {
     using Microsoft.AspNetCore.Builder;
     using Microsoft.Extensions.Logging;
@@ -30,7 +30,7 @@ namespace NewhouseIT.BasketService
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplication1", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Akka Sample", Version = "v1" });
             });
 
             services.AddSingleton<ActorSystem>(_ => ActorSystem.Create("basketservice"));
@@ -46,7 +46,7 @@ namespace NewhouseIT.BasketService
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApplication1 v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Akka Sample v1"));
             }
 
             app.UseHttpsRedirection();

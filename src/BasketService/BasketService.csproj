@@ -1,12 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <DebugType>portable</DebugType>
-    <AssemblyName>NewhouseIT.BasketService</AssemblyName>
+    <AssemblyName>AkkaSample.BasketService</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>BasketService</PackageId>
-    <RootNamespace>NewhouseIT.BasketService</RootNamespace>
+    <RootNamespace>AkkaSample.BasketService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

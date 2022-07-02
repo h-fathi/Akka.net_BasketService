@@ -1,8 +1,8 @@
 using Akka.Actor;
 
-using NewhouseIT.BasketService.Core.Messaging;
+using AkkaSample.BasketService.Core.Messaging;
 
-namespace NewhouseIT.BasketService.Baskets
+namespace AkkaSample.BasketService.Baskets
 {
     public class BasketsActor : ReceiveActor
     {

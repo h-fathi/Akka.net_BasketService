@@ -2,7 +2,7 @@ using Microsoft.Extensions.Logging;
 using Akka.Actor;
 using System.Threading.Tasks;
 
-namespace NewhouseIT.BasketService.Baskets.Routes
+namespace AkkaSample.BasketService.Baskets.Routes
 {
     public class GetBasket
     {

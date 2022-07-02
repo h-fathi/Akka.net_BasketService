@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-namespace NewhouseIT.BasketService.Baskets
+namespace AkkaSample.BasketService.Baskets
 {
     public static class Services
     {

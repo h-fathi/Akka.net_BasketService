@@ -1,6 +1,6 @@
 using System;
 
-namespace NewhouseIT.BasketService.Baskets
+namespace AkkaSample.BasketService.Baskets
 {
     public partial class BasketActor
     {

@@ -1,4 +1,4 @@
-namespace NewhouseIT.BasketService
+namespace AkkaSample.BasketService
 {
     using System.IO;
     using Microsoft.AspNetCore.Builder;

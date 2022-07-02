@@ -1,6 +1,6 @@
 using Akka.Actor;
 
-namespace NewhouseIT.BasketService.Products
+namespace AkkaSample.BasketService.Products
 {
     public class ProductsActorProvider
     {

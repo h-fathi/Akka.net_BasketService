@@ -1,4 +1,4 @@
-namespace NewhouseIT.BasketService.Baskets.Routes
+namespace AkkaSample.BasketService.Baskets.Routes
 {
    public class ApiDsl
    {

@@ -1,6 +1,6 @@
 using System;
 
-namespace NewhouseIT.BasketService.Baskets {
+namespace AkkaSample.BasketService.Baskets {
     public class BasketItem {
         public Guid Id { get; set; }
 

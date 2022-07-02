@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using Akka.Actor;
 
-namespace NewhouseIT.BasketService.Products
+namespace AkkaSample.BasketService.Products
 {
     public partial class ProductsActor : ReceiveActor
     {

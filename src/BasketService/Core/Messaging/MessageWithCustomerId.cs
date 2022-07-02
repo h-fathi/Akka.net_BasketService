@@ -1,4 +1,4 @@
-namespace NewhouseIT.BasketService.Core.Messaging
+namespace AkkaSample.BasketService.Core.Messaging
 {
     public abstract class MessageWithCustomerId
     {

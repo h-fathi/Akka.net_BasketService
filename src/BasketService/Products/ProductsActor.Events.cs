@@ -1,4 +1,4 @@
-namespace NewhouseIT.BasketService.Products
+namespace AkkaSample.BasketService.Products
 {
     public partial class ProductsActor
     {

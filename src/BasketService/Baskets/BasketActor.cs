@@ -2,9 +2,9 @@ using System;
 using System.Threading.Tasks;
 using Akka.Actor;
 
-using NewhouseIT.BasketService.Products;
+using AkkaSample.BasketService.Products;
 
-namespace NewhouseIT.BasketService.Baskets
+namespace AkkaSample.BasketService.Baskets
 {
     public partial class BasketActor : ReceiveActor
     {

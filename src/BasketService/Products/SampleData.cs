@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace NewhouseIT.BasketService.Products
+namespace AkkaSample.BasketService.Products
 {
     public class SampleData {
         public static IEnumerable<Product> Get()

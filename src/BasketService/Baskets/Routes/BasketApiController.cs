@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace NewhouseIT.BasketService.Baskets.Routes
+namespace AkkaSample.BasketService.Baskets.Routes
 {
     [Route("/baskets")]
     [ApiController]
